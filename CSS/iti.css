@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.up_nav {
+    background-color: #e0dfdf;
+    width: 100%;
+    height: 35px;
+}
+
+.mail {
+    float: right;
+    padding: 8px 30px;
+}
+
+.phone {
+    float: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#mail,
+#phone {
+    text-decoration: none;
+    color: #890505;
+    font-weight: 550;
+}
+
+.nav {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 128px;
+    position: relative;
+}
+
+.img {
+    float: left;
+    padding-left: 0;
+}
+
+.links {
+    position: absolute;
+    right: 60px;
+}
+
+.links ul {
+    padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+    list-style-type: none;
+    float: right;
+    height: 128px;
+    width: 130px;
+    position: relative;
+}
+
+.links ul li a {
+    text-decoration: none;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: #888686;
+}
+
+#home {
+    background-color: #bebcbc;
+    color: #890505;
+    width: 100px;
+}
+
+#home a {
+    color: #890505;
+}
+
+.links ul li:hover {
+    background-color: #bebcbc;
+}
+
+.links ul li a:hover {
+    color: #890505;
+}
+
+#news {
+    width: 100px;
+}
+
+.Center_image {
+    background-color: #e0dfdf;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    background-image: url(../images/Aswan_iti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    position: relative;
+    width: 100%;
+
+    height: auto;
+}
+
+.above1,
+.above2 {
+    position: absolute;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    letter-spacing: .05rem;
+    word-spacing: 0rem;
+    padding: 18px;
+    line-height: 30px;
+    color: white;
+}
+
+.above1 {
+    background-color: rgb(137, 5, 5, 0.5);
+    top: 13%;
+}
+
+
+
+.above2 {
+    background-color: rgb(245, 245, 245, 50%);
+
+    color: black;
+
+    top: 24%;
+
+}
+
+.iti-numbers {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.ITI_num {
+
+    width: 100%;
+    border-left: 0.6rem solid rgb(137, 5, 5);
+    margin-left: 45px;
+    font-size: 4.9rem;
+
+    color: #282950;
+
+}
+
+.iti-numbers h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.quick-facts {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.numbers-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.number-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 235px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.number-card:hover {
+    transform: scale(1.05);
+
+}
+
+.number-card h3 {
+    font-size: 2.5rem;
+    color: #890505;
+    margin-bottom: 10px;
+    text-align: left;
+    border-bottom: 4px solid #7a7878;
+    width: 25%;
+}
+
+.number-card p {
+    font-size: 1.1rem;
+    color: #504e4e;
+    text-align: left;
+    font-weight: bold;
+}
+
+.Title_Testimonials {
+    margin-top: 6rem;
+    width: 100%;
+    border-left: 0.6rem solid #890505;
+    margin-left: 45px;
+    font-size: 4.8rem;
+    color: #282950;
+
+}
+
+.say_about {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 70px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.Testimonials {
+    width: 100%;
+    position: relative;
+}
+
+
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    color: #7f0d0d;
+    margin-bottom: 10px;
+}
+
+.testimonials p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    height: 300px;
+
+    position: relative;
+}
+
+.testimonial-card .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+
+    top: -50px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    border: 7px solid #fffcfc;
+    background-color: #fff;
+
+}
+
+#imgone {
+    border: 2px solid #fffcfc;
+}
+
+.testimonial-card blockquote {
+    font-style: italic;
+    color: #333;
+    margin-top: 100px;
+
+    margin-bottom: 22px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.testimonial-card h3 {
+    font-size: 1.4rem;
+
+    color: #8b0000;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+.testimonial-card span {
+    font-size: 1rem;
+
+    color: #555;
+
+    display: block;
+
+    margin-top: 5px;
+
+}
+
+
+.footer {
+    background-color: #0a1e31;
+    color: #fff;
+    height: 355px;
+    padding: 18px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-links ul,
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-contact ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-contact ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover,
+.footer-contact ul li a:hover {
+    color: #7f0d0d;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+    gap: 15px;
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons i {
+    font-size: 25px;
+
+    color: #fcfcfc;
+
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.social-icons i:hover {
+    transform: scale(1.1);
+
+    color: #890505;
+
+}
+
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+
+.footer-bottom a {
+    color: #7f0d0d;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
